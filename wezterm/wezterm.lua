@@ -1,15 +1,14 @@
 local wezterm = require("wezterm")
 local act = wezterm.action
 return {
-	-- color_scheme = "Dracula (Official)",
-	color_scheme = "Abernathy",
+	color_scheme = "Dracula (Official)",
 	enable_tab_bar = true,
 	tab_bar_at_bottom = false,
 	use_fancy_tab_bar = false,
-	font = wezterm.font("MonoLisa", {
-		weight = "Black",
+	font = wezterm.font("JetBrains Mono", {
+		weight = "Medium",
 	}),
-	font_size = 11.0,
+	font_size = 12.0,
 	freetype_load_target = "Normal",
 	window_decorations = "RESIZE",
 	keys = {
